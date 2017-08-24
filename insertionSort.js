@@ -17,13 +17,16 @@ function insertionSort(array) {
 
 
 // INSERTION SORT WITH CONSOLE LOGS
+
 function insertionSortWithLogs(array) {
+
+  // Loops through the (unsorted) array
   for(let index = 0; index < array.length; index++) {
   console.log("LOOP "+index);
   console.log("index = " + index);
 
     let storedValue = array[index];
-    console.log("storedValue1 = " + array[index]);
+    console.log("storedValue = " + array[index]);
 
     let sorter = index - 1;
     console.log("sorter = "+sorter);
