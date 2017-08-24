@@ -1,4 +1,4 @@
-const array = [5,4,3,2,1];
+let array = [5,4,3,2,1];
 
 // INSERTION SORT
 function insertionSort(array) {
